@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+* {
+    font-family: Nunito, sans-serif;
+}
+div.user p span {
+    padding-left: 0.9em;
+}
+.header_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#savedUsersContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.user {
+    max-width: 350px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #FFF8FE;
+}
+.user.saved{
+    background-color: #E2FC7E;
+}
+h1 {
+    color: black;
+    margin: 10px;
+}
+
+h2{
+    color: #FD496A;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    color: black;
+    background-color: #D3FA4B;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+    color: #FD496A;
+}
